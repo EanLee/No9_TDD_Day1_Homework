@@ -22,7 +22,7 @@ namespace OrderStatistic
 
         public string StatisticCategory { get; set; }
 
-        public List<int> GetStatistic(int count)
+        public List<int> GetSumByGroupCount(int count)
         {
             if (count == 0)
                 return new List<int>() { 0 };
