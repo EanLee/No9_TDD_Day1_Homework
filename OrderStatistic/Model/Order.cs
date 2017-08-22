@@ -4,8 +4,8 @@
     {
         public int Id { get; set; }
 
-        public double Cost { set; get; }
-        public double Revenue { set; get; }
-        public double SellPrice { set; get; }
+        public int Cost { set; get; }
+        public int Revenue { set; get; }
+        public int SellPrice { set; get; }
     }
 }
